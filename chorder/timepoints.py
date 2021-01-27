@@ -4,6 +4,8 @@ from _collections import OrderedDict
 def get_timepoints(midi_obj):
     timepoints = {}
     for instrument in midi_obj.instruments:
+        if instrument.is_drum:
+            continue
         for note in instrument.notes:
             start = note.start
             end = note.end
