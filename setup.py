@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="chorder-py",
-    version="1.0.0",
+    version="1.0.1",
     author="TuneFlow",
     author_email="contact@info.tuneflow.com",
     description="A modified version of chorder with drums fix",
