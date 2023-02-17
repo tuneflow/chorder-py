@@ -1,14 +1,16 @@
-# chorder 0.1.2
+# chorder-py 0.1.2
+
+Fork of chorder with drum fixes.
 
 ## Installation
 
-`chorder` is a chord detection and reharmonize tool for `.mid` files. You can download `chorder` using pip:
+`chorder-py` is a chord detection and reharmonize tool for `.mid` files. You can download `chorder-py` using pip:
 
 ```shell
-pip install chorder
+pip install chorder-py
 ```
 
-To check if `chorder` is successfully installed, type `python` in the terminal, and do the following:
+To check if `chorder-py` is successfully installed, type `python` in the terminal, and do the following:
 
 ```python
 >>> from chorder import Chord
